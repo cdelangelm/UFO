@@ -14,8 +14,12 @@ int main()
     string answer = "__________";
     int misses = 0;
 
-    while (answer != codeword && misses < 7) {
+    vector<char> incorrect;
+    bool guess = false;
 
+    while (answer != codeword && misses < 7) {
+        display_misses(misses);
+        display_status(incorrect, answer);
         misses++;
     }
 

@@ -4,11 +4,10 @@
 using namespace std;
 // Define functions
 void greet() {
-    cout << "===============================\n";
-    cout << "     UFO:     The     Game     \n";
-    cout << "===============================\n\n";
-    cout << "Instructions: save your friend\n";
-    cout << "from alien abduction by guessing\n";
+    cout << "===============================================================\n";
+    cout << "                     UFO:     The     Game                     \n";
+    cout << "===============================================================\n\n";
+    cout << "Instructions: save your friend from alien abduction by guessing\n";
     cout << "the letters in the codeword.\n\n";
 }
 
@@ -21,7 +20,17 @@ void end_game(string answer, string codeword) {
     }
 }
 
-
+void display_status(vector<char> incorrect, string answer) {
+    cout << "Incorrect Guesses: ";
+    for (int i = 0; i < incorrect.size(); i++) {
+        cout << incorrect[i] << " ";
+    }
+    cout << "\n\nCodeword: ";
+    for (int j = 0; j < answer.size(); j++) {
+        cout << answer[j] << " ";
+    }
+    cout << "\n\n";
+}
 
 void display_misses(int misses) {
 	if (misses == 0 || misses == 1) {
