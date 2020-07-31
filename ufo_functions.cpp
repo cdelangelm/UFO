@@ -46,7 +46,7 @@ void display_misses(int misses) {
         cout << "             /   0   \\      / `-----------'  \n";
         cout << "            /  --|--  \\    /                 \n";
         cout << "           /     |     \\                     \n";
-        cout << "          /     / \     \\                    \n";
+        cout << "          /     / \\     \\                    \n";
         cout << "         /               \\                   \n";
 	}
     else if (misses == 2) {
@@ -61,7 +61,7 @@ void display_misses(int misses) {
         cout << "              /  0  \\        (  Send help! ) \n";
         cout << "             / --|-- \\      / `-----------'  \n";
         cout << "            /    |    \\    /                 \n";
-        cout << "           /    / \    \\                     \n";
+        cout << "           /    / \\    \\                     \n";
         cout << "          /             \\                    \n";
         cout << "         /               \\                   \n";
     }
@@ -76,7 +76,7 @@ void display_misses(int misses) {
         cout << "         '-.,_________,.-'    ,-----------.   \n";
         cout << "              /--|--\\        (  Send help! ) \n";
         cout << "             /   |   \\      / `-----------'  \n";
-        cout << "            /   / \   \\    /                 \n";
+        cout << "            /   / \\   \\    /                 \n";
         cout << "           /           \\                     \n";
         cout << "          /             \\                    \n";
         cout << "         /               \\                   \n";
@@ -91,7 +91,7 @@ void display_misses(int misses) {
         cout << "        (  ooo  ooo  ooo  )                   \n";
         cout << "         '-.,_________,.-'    ,-----------.   \n";
         cout << "              /  |  \\        (  Send help! ) \n";
-        cout << "             /  / \  \\      / `-----------'  \n";
+        cout << "             /  / \\  \\      / `-----------'  \n";
         cout << "            /         \\    /                 \n";
         cout << "           /           \\                     \n";
         cout << "          /             \\                    \n";
@@ -106,7 +106,7 @@ void display_misses(int misses) {
         cout << "         .-\"`         `\"-.                  \n";
         cout << "        (  ooo  ooo  ooo  )                   \n";
         cout << "         '-.,_________,.-'    ,-----------.   \n";
-        cout << "              / / \ \\        (  Send help! ) \n";
+        cout << "              / / \\ \\        (  Send help! ) \n";
         cout << "             /       \\      / `-----------'  \n";
         cout << "            /         \\    /                 \n";
         cout << "           /           \\                     \n";
