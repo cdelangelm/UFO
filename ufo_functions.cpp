@@ -3,7 +3,23 @@
 
 using namespace std;
 // Define functions
+void greet() {
+    cout << "===============================\n";
+    cout << "     UFO:     The     Game     \n";
+    cout << "===============================\n\n";
+    cout << "Instructions: save your friend\n";
+    cout << "from alien abduction by guessing\n";
+    cout << "the letters in the codeword.\n\n";
+}
 
+void end_game(string answer, string codeword) {
+    if (answer == codeword) {
+        cout << "Hooray! You saved the person and earned a medal of honor!\n\n";
+    }
+    else {
+        cout << "Oh no! The UFO just flew away with another person!\n\n";
+    }
+}
 
 
 
